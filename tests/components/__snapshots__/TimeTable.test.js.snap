@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in <TimeTable/> should to match with snapshot 1`] = `
+<div>
+  <div
+    aria-hidden="true"
+    class=" overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
+    id="default-modal"
+    tabindex="-1"
+  >
+    <div
+      class="relative p-4 w-full h-[calc(100%-1rem)] "
+    >
+      <div
+        class="relative bg-white h-full rounded-lg shadow dark:bg-gray-700 overflow-x-auto"
+      >
+        <div
+          aria-label="div-close-modal"
+          class="w-full flex justify-end"
+        >
+          <button
+            class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-12 h-12 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+            data-modal-hide="default-modal"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="w-4 h-4 text-gray-100 dark:text-white"
+              fill="none"
+              viewBox="0 0 14 14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              />
+            </svg>
+            <span
+              class="sr-only"
+            >
+              Close modal
+            </span>
+          </button>
+        </div>
+        <div
+          class="w-full h-[calc(100%-4rem)] flex flex-col justify-center items-center"
+        >
+          <svg
+            class="animate-spin h-12 w-12 text-gray-300"
+            fill="none"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              class="opacity-25"
+              cx="12"
+              cy="12"
+              r="10"
+              stroke="currentColor"
+              stroke-width="4"
+            />
+            <path
+              class="opacity-75"
+              d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+              fill="currentColor"
+            />
+          </svg>
+          <span
+            class="mt-2"
+          >
+            Cargando...
+          </span>
+        </div>
+        <div
+          class="p-4 pt-0 md:p-0 md:pt-0 flex"
+        >
+          <div
+            class="pt-[44px]"
+          />
+          <div
+            class="overflow-y-auto"
+            id="scroll-channels"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
